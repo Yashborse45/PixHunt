@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to top, #1f2833, #2c343e);
+    /* background-image: url('https://xmple.com/wallpaper/highlight-white-gradient-yellow-linear-2560x1536-c2-ffd700-ffffff-l-67-a-135-f-21.svg'); /* Background image */
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  */
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    background-color: #1f2833;
+    color: #66fcf1;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-between;
+    cursor: pointer;
+    border-bottom: 3px solid #66fcf1;
+}
+
+.header-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.url-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.url-container h1 {
+    color: #66fcf1;
+    margin-bottom: 20px;
+}
+
+#url-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    background-color: #0b0c10;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+#drive-url {
+    padding: 10px;
+    border: 1px solid #1f2833;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #1f2833;
+    color: #ffffff;
+}
+
+button {
+    padding: 10px;
+    background-color: #66fcf1;
+    color: #1f2833;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a29e;
+}
+
+.header-nav a {
+    color: #66fcf1;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.header-nav a:hover {
+    text-decoration: underline;
+    color: #66fcf9;
+}
